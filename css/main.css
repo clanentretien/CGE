@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.inner {
+  overflow: hidden;
+}
+
+.inner>img {
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.avantage {
+  background-color: #ebebeb;
+}
+
+.btn2 {
+  background-color: #c2a387;
+  border: #c2a387;
+  transition: 0.5s ease-in-out;
+  padding: 10px 20px;
+}
+
+.btn2:hover {
+  text-decoration: none;
+  border: #c2a387;
+  cursor: pointer;
+  border: 1px solid #c2a387;
+  background-color: white;
+  color: #c2a387;
+}
+
+.imagy {
+  height: 85px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.marketing {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12pt bold;
+  margin-top: 50px;
+}
+
+.marketing>h2 {
+  font-size: 12pt bold;
+  text-align: center;
+}
+
+.section_footer {
+  background-color: #151515;
+}
+
+.pagy {
+  background-color: #dddddd;
+  padding: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .pagy {
+    padding: 10px 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12pt bold;
+    margin-top: 50px;
+  }
+}
+
+
+
+.bg-dark {
+  background: transparent !important;
+  -webkit-transition: 0.75s ease;
+  transition: 0.75s ease;
+  text-align: center;
+}
+
+.bg-dark.scrolled {
+  background: #c2a387 !important;
+  text-align: center;
+}
+
+.bg-dark.scrolled:hover {
+  background: #e2d2c3 !important;
+}
+
+.bg-brooney {
+  background: #c2a387 !important;
+  -webkit-transition: 0.75s ease;
+  transition: 0.75s ease;
+  text-align: center;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: bolder !important;
+}
+
+.nav-link.scrolled {
+  color: white !important;
+}
+
+.nav-link::after {
+  content: "";
+  width: 0%;
+  height: 6px;
+  background: #ffffff;
+  display: block;
+  margin: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav-link:hover::after {
+  width: 80%;
+}
+
+.nav {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: bolder !important;
+}
+
+.nav.scrolled {
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav::after {
+  content: "";
+  width: 0%;
+  height: 6px;
+  background: #ffffff;
+  display: block;
+  margin: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav:hover::after {
+  width: 80%;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.page-footer {
+  background-color: #555555;
+}
+
+.border {
+  width: 80px;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.fas {
+  padding: 2px !important;
+  margin: 0px !important;
+}
+
+.fa {
+  padding: 2px !important;
+  margin: 0px !important;
+}
+
+.empty {
+  height: 120px;
+}
+
+
+
+.about-img {
+  max-height: 20vh;
+}
+
+.info {
+  color: #c2a387;
+  font-size: 30pt;
+
+}
+
+
+
+.infos>p {
+  text-align: justify;
+  margin: 5px;
+}
+
+.infos>h2 {
+  margin: 0px;
+  padding: 10px;
+}
+
+
+
+.anime {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.anim {
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+}
+
+#fade1 {
+  animation-duration: 2.5s;
+  animation-delay: 0.5s;
+}
+
+#fade2 {
+  animation-duration: 3.5s;
+  animation-delay: 1s;
+}
+
+#fade3 {
+  animation-duration: 4.5s;
+  animation-delay: 1.25s;
+}
+
+.feedback {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.btn-msg {
+  background-color: #c2a387;
+  border: #dddddd;
+}
+
+.btn-msg:hover {
+  color: #c2a387;
+  background-color: #ffffff;
+  border: #c2a387 2px solid;
+}
+
+.btn3 {
+  background-color: #ff0000;
+  border: #ffffff;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  padding: 20px 50px;
+}
+
+.btn3:hover {
+  text-decoration: none;
+  border: #c2a387;
+  cursor: pointer;
+  border: 1px solid #c2a387;
+  background-color: white;
+  color: #c2a387;
+}
+
+.lg-7 {
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+}
+
+.lg-7>h6 {
+  padding: 45px;
+  margin: 10px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #e2d2c3;
+}
+
+.lg-4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#imgy {
+  animation-delay: 1s;
+  animation-duration: 4s;
+}
+
+#btn3 {
+  animation-delay: 3s;
+  animation-duration: 4s;
+}
+
+/* No CSS # sourceMappingURL=main.css.map */
